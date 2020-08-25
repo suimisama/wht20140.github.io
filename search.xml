@@ -1,34 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>MyFirstBlog</title>
-    <url>./posts/a55b5348/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="assets\css\APlayer.min.css"><script src="assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="assets\js\Meting.min.js"></script><h2 id="大家好，这是我的第一篇博客"><a href="#大家好，这是我的第一篇博客" class="headerlink" title="大家好，这是我的第一篇博客"></a>大家好，这是我的第一篇博客</h2><p>里面的内容为测试内容</p>
-<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><hr>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>MyFirstBlog</title>
+      <link href="./posts/a55b5348/"/>
+      <url>./posts/a55b5348/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="assets\css\APlayer.min.css"><script src="assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="assets\js\Meting.min.js"></script><h2 id="大家好，这是我的第一篇博客"><a href="#大家好，这是我的第一篇博客" class="headerlink" title="大家好，这是我的第一篇博客"></a>大家好，这是我的第一篇博客</h2><p>里面的内容为markdown测试内容</p><p>换行</p><p><em>斜体文字</em>,<strong>粗体文字</strong>,<strong><em>斜体+粗体</em></strong></p><p><del>删除线</del></p><p><u>下划线<u></u></u></p><hr><ul><li>列表第一项<ul><li>第一个元素</li><li>第二个元素</li></ul></li></ul><blockquote><p>最外层</p><blockquote><p>第二层</p><blockquote><p>你以为我在第三层,实际上已经第五层了    </p></blockquote></blockquote></blockquote><blockquote><p>区块一</p><ul><li>区块一中的列表<ul><li>列表第一项</li><li>列表第二项</li></ul></li></ul></blockquote><hr><p>代码区域测试<br>    ‘printf(“hello world”);’这是一段代码</p><pre><code>#include&lt;bits/stdc++.h&gt;using namespace std;int a[2000],i,j,k,p,x,n;//p:找到能拦截导弹的下标//k:代表目前有几套拦截系统//x:代表每个导弹的高度 int main()&#123;    cin &gt;&gt; n;    for(i = 1;i &lt;= n;i++)&#123;        cin &gt;&gt; x;        p = -1;        for(j = 1;j &lt;= k;j++)&#123;            if(a[j] &gt; x)&#123;                p = j;                break;            &#125;        &#125;        //如果没有找到        if(p == -1)&#123;            k++;            a[k] = x;        &#125;else&#123;            a[p] = x;        &#125;     &#125;     cout &lt;&lt; k;    return 0;&#125;</code></pre><hr>]]></content>
+      
+      
       <categories>
-        <category>测试用分类</category>
+          
+          <category> 测试用分类 </category>
+          
       </categories>
-      <tags>
-        <tag>测试文本</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>./posts/4a17b156/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="assets\css\APlayer.min.css"><script src="assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 测试文本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="./posts/4a17b156/"/>
+      <url>./posts/4a17b156/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="assets\css\APlayer.min.css"><script src="assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="assets\js\Meting.min.js"></script><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
